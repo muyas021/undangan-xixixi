@@ -32,11 +32,8 @@ renderList = (doc) => {
   // var clock = document.createElement("img");
   main_div.setAttribute("class", "mb-6 px-3 py-3 bg-sage-200 rounded-md");
   // time_div.setAttribute("class", "flex");
-  name.setAttribute(
-    "class",
-    "text-sage-700 text-sm font-bold mb-1 tracking-wider"
-  );
-  comment.setAttribute("class", "text-sage-700 text-sm mb-1");
+  name.setAttribute("class", "text-sage-700 font-bold mb-1 tracking-wider");
+  comment.setAttribute("class", "text-sage-700 mb-1");
   // created_at.setAttribute(
   //   "class",
   //   "text-white text-xs text-sage-200 my-auto ml-1"
