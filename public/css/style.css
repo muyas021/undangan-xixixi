@@ -532,6 +532,11 @@ html {
   margin-bottom: auto;
 }
 
+.my-9 {
+  margin-top: 2.25rem;
+  margin-bottom: 2.25rem;
+}
+
 .mt-4 {
   margin-top: 1rem;
 }
@@ -600,10 +605,6 @@ html {
   margin-left: 0.25rem;
 }
 
-.mt-9 {
-  margin-top: 2.25rem;
-}
-
 .flex {
   display: flex;
 }
@@ -615,6 +616,10 @@ html {
 .h-fit {
   height: -moz-fit-content;
   height: fit-content;
+}
+
+.h-20 {
+  height: 5rem;
 }
 
 .h-40 {
@@ -664,6 +669,10 @@ html {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.overflow-y-auto {
+  overflow-y: auto;
 }
 
 .rounded-md {
@@ -753,6 +762,11 @@ html {
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .text-center {
