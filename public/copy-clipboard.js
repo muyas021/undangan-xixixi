@@ -4,17 +4,27 @@ function norekOki() {
 
   // Copy the text inside the text field
   navigator.clipboard.writeText(copyText[0].textContent).then(() => {
-    alert("Berhasil menyalin nomor rekening Oki Riayati");
+    alert("Berhasil menyalin nomor rekening Oki Riayati - Mandiri");
   });
 }
 
-function norekYasin() {
+function norekYasinBca() {
   // Get the text field
   var copyText = document.getElementsByClassName("norek");
 
   // Copy the text inside the text field
   navigator.clipboard.writeText(copyText[1].textContent).then(() => {
-    alert("Berhasil menyalin nomor rekening Muhammad Yasin");
+    alert("Berhasil menyalin nomor rekening Muhammad Yasin - BCA");
+  });
+}
+
+function norekYasinBsi() {
+  // Get the text field
+  var copyText = document.getElementsByClassName("norek");
+
+  // Copy the text inside the text field
+  navigator.clipboard.writeText(copyText[2].textContent).then(() => {
+    alert("Berhasil menyalin nomor rekening Muhammad Yasin - BSI");
   });
 }
 
