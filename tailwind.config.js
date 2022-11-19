@@ -18,6 +18,9 @@ module.exports = {
       screens: {
         andro: "420px",
       },
+      rotate: {
+        min180: "-180deg",
+      },
     },
   },
   variants: {},
