@@ -3,10 +3,9 @@ function norekOki() {
   var copyText = document.getElementsByClassName("norek");
 
   // Copy the text inside the text field
-  navigator.clipboard.writeText(copyText[0].textContent);
-
-  // Alert the copied text
-  alert("Berhasil menyalin nomor rekening Oki Riayati");
+  navigator.clipboard.writeText(copyText[0].textContent).then(() => {
+    alert("Berhasil menyalin nomor rekening Oki Riayati");
+  });
 }
 
 function norekYasin() {
@@ -14,10 +13,9 @@ function norekYasin() {
   var copyText = document.getElementsByClassName("norek");
 
   // Copy the text inside the text field
-  navigator.clipboard.writeText(copyText[1].textContent);
-
-  // Alert the copied text
-  alert("Berhasil menyalin nomor rekening Muhammad Yasin");
+  navigator.clipboard.writeText(copyText[1].textContent).then(() => {
+    alert("Berhasil menyalin nomor rekening Muhammad Yasin");
+  });
 }
 
 function alamat() {
@@ -25,8 +23,7 @@ function alamat() {
   var copyText = document.getElementsByClassName("alamat");
 
   // Copy the text inside the text field
-  navigator.clipboard.writeText(copyText[0].textContent);
-
-  // Alert the copied text
-  alert("Berhasil menyalin alamat");
+  navigator.clipboard.writeText(copyText[0].textContent).then(() => {
+    alert("Berhasil menyalin alamat");
+  });
 }
