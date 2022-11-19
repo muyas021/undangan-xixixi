@@ -5,9 +5,6 @@ module.exports = {
       maxWidth: {
         480: "30rem",
       },
-      maxHeight: {
-        864: "54rem",
-      },
       colors: {
         sage: {
           200: "#D5D9C7",
